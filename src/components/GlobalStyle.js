@@ -77,4 +77,24 @@ li {
     list-style: none;
 }
 
+.container {
+    max-width: 120rem;
+    margin: 0 auto;
+}
+
+.grid {
+    display: grid;
+    gap: 9rem;
+}
+
+.grid-two-column {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.intro-data {
+    margin-bottom: 0;
+    text-transform: uppercase;
+    color: #5138ee;
+}
+
 `

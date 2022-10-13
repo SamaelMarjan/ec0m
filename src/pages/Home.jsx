@@ -2,9 +2,13 @@ import React from 'react';
 import HeroSection from '../components/HeroSection';
 
 const Home = () => {
+  const data = {
+    name: "E-c0m",
+  };
+
   return (
     <>
-      <HeroSection />
+      <HeroSection myData={data} />
     </>
     );
 }
