@@ -66,7 +66,7 @@ p, button {
     color: ${({ theme }) => theme.colors.text};
     font-size: 1.65rem;
     line-height: 1.5;
-    font-weight:400;
+    font-weight: 400;
 }
 
 a {
@@ -89,6 +89,10 @@ li {
 
 .grid-two-column {
     grid-template-columns: repeat(2, 1fr);
+}
+
+.grid-three-column {
+    grid-template-columns: repeat(3, 1fr);
 }
 
 .intro-data {
