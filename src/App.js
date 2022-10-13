@@ -21,9 +21,9 @@ function App() {
       text: 'rgba(29, 29, 29, .8)',
       white: '#fff',
       black: '#212529',
-      helper: '#8490ff',
+      helper: '#1e32e8',
 
-      bg: '#f6f8fa',
+      bg: '#c4e0f2',
       footer_bg: '#0a1435',
       btn: 'rgb(94 84 243)',
       border: 'rgba(98, 84, 243, 0.5)',
