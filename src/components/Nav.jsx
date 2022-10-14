@@ -60,7 +60,7 @@ const Navbar = styled.nav`
     &:visited {
       display: inline-block;
       text-decoration: none;
-      font-size: 1.5rem;
+      font-size: 1.8rem;
       font-weight: 600;
       text-transform: uppercase;
       color: ${({theme}) => theme.colors.black};
@@ -82,6 +82,7 @@ const Navbar = styled.nav`
     }
 
     .cart-total-item {
+      font-size: 1.2rem;
       width: 2rem;
       height: 2rem;
       position: absolute;

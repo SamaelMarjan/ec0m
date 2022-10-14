@@ -15,7 +15,7 @@ const HeroSection = ({myData}) => {
                     <p>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum asperiores veniam sit explicabo omnis fugit, delectus laboriosam facere obcaecati ut maxime perferendis molestiae sint aperiam corrupti, labore est error pariatur.
                     </p>
-                    <NavLink>
+                    <NavLink to='/products'>
                         <Button>show now</Button>
                     </NavLink>
                 </div>

@@ -2,7 +2,7 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 import styled from 'styled-components';
 
-import {FaGithub, FaLinkedin} from 'react-icons/fa';
+import {FaGithub, FaLinkedin, FaYoutube} from 'react-icons/fa';
 
 import {Button} from '../styles/Button';
 
@@ -19,7 +19,7 @@ const Footer = () => {
 
                 <div>
                     <Button>
-                        <NavLink>Get Started</NavLink>
+                        <NavLink to='/'>Get Started</NavLink>
                     </Button>
                 </div>
 
@@ -54,7 +54,7 @@ const Footer = () => {
                         </div>
                         <div>
                             <a href='https://www.youtube.com' target="_blank" rel="noreferrer">
-                                <FaLinkedin className='icons' />
+                                <FaYoutube className='icons' />
                             </a>
                         </div>
                     </div>
@@ -152,14 +152,18 @@ const Wrapper = styled.section`
             transform: translateY(0%);
             text-align: center;
 
+            .grid div:last-child {
+                justify-self: center;
+            }
+
             
         }
-        
+
         footer {
             padding: 9rem 0 9rem 0;
         }
 
-        .footer-bottom-section {
+        .footer-bottom--section {
             padding-top: 4.8rem;
         }
     }
